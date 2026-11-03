@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daftar Tugas & Jadwal Belajar</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <video autoplay muted loop class="video-bg">
+        <source src="videobg1.mp4" type="video/mp4">
+    </video>
+    <div class="video-overlay"></div>
+
+  <main>
+    <div class="login-box">
+      <img src="logoapk1.png" alt="Logo DJ" class="logo">
+
+        <form id="loginForm">
+        <div class="input-group">
+          <span class="icon">👤</span>
+          <input type="text" id="username" placeholder="Username (NIM)" required>
+        </div>
+
+        <div class="input-group">
+          <span class="icon">🔒</span>
+          <input type="password" id="password" placeholder="Password" required>
+        </div>
+
+        <button type="submit" class="login-btn">LOGIN</button>
+         <button
+        type="button"
+        class="register-btn"
+        onclick="window.location.href='register.html'">
+        REGISTER
+      </button>
+      </form>
+
+      <p class="note">
+        Harap login menggunakan NIM yang telah diberikan oleh<br>
+        <b>POLITEKNIK NEGERI BATAM</b> sebagai Username dan Password.
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 PBLIF1-MA02 - Aplikasi Daftar Tugas dan Jadwal Belajar Mahasiswa</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="script.js"></script>
+</body>
+</html>

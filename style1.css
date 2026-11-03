@@ -1,0 +1,47 @@
+body{
+background:#f5f7fb;
+font-family:'Segoe UI',sans-serif;
+}
+
+.card{
+border:none;
+border-radius:15px;
+}
+
+.navbar{
+z-index:9999;
+}
+
+.fc-toolbar-title{
+font-size:1.2rem !important;
+font-weight:600;
+}
+
+.fc-event{
+cursor:pointer;
+border:none !important;
+border-radius:8px;
+}
+.bi-list{
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.dropdown-menu{
+    min-width: 220px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.dropdown-item{
+    padding: 10px 15px;
+}
+
+.dropdown-item i{
+    margin-right: 10px;
+}
+
+.bi-bell-fill,
+.bi-person-circle{
+    cursor: pointer;
+}
